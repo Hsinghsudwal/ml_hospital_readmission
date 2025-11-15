@@ -1,0 +1,27 @@
+# Hospital Readmission Project Configuration
+
+data:
+  raw_data_path: 'data/diabetic_data.csv'
+
+output:
+  report_path: "artifacts/evaluation_report.json"
+  model_path: "artifacts/best_model.joblib"
+
+# localstack:
+#   endpoint_url: "http://localhost:4566"
+#   s3_bucket: "hospital-models"
+#   model_s3: "models/readmission_model.joblib"
+  # model_prefix: "models/"
+  # model_local_path: "artifacts/"
+
+
+# aws:
+#   s3_bucket: "bucket-models"
+#   s3_model_key: "hospital_readmission/models/readmission_model.joblib"
+#   s3_endpoint_url: null   # set to LocalStack endpoint if using (e.g., "http://localhost:4566")
+#   aws_region: "us-east-1"
+
+
+
+
+
