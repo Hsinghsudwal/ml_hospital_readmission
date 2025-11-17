@@ -1,4 +1,4 @@
-from src.utils.config import config
+from src.config import config
 from src.train import load_data, clean_data, preprocess_data, train_model, select_and_save_best_model, evaluate_model, make_decision #xgb_feature_importance, save_model, model_registry
 
     
