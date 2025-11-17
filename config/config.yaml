@@ -11,8 +11,7 @@ output:
 #   endpoint_url: "http://localhost:4566"
 #   s3_bucket: "hospital-models"
 #   model_s3: "models/readmission_model.joblib"
-  # model_prefix: "models/"
-  # model_local_path: "artifacts/"
+#   model_local_path: "artifacts/"
 
 
 # aws:
