@@ -172,6 +172,7 @@ The API will be available at `http://localhost:9696/predict`
 ## Docker Deployment
 
 The project includes Docker support for containerized deployment.
+* Make sure Docker is installed
 
 **with docker**: install fewer dependencies
 ```bash
@@ -208,7 +209,8 @@ patient = {
 }...
 
 response = requests.post(url, json=patient)
-print("Prediction:", response.json())
+# print("Prediction:", response.json())
+print(response)
 ```
 **Run**:
 ```bash
