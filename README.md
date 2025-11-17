@@ -224,6 +224,9 @@ python test.py
 Patient WILL LIKELY be readmitted within 30 days!
 High risk.
 ```
+
+This include the `docker_test.PNG` to test via passing JSON format to get the results without runing Flask app on my environment
+ 
 ---
 ### Docker Compose (Optional)
 
